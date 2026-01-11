@@ -1,11 +1,11 @@
 Describe "CloudyMusings.FileDiscovery basic tests" {
     It "Module imports" {
-        $modulePath = Join-Path $PSScriptRoot "..\src\CloudyMusings.FileDiscovery\CloudyMusings.FileDiscovery.psd1"
+        $modulePath = Join-Path $PSScriptRoot "..filediscovery\filediscovery.psd1"
         { Import-Module $modulePath -Force } | Should -Not -Throw
     }
 
     It "Exports expected functions" {
-        $modulePath = Join-Path $PSScriptRoot "..\src\CloudyMusings.FileDiscovery\CloudyMusings.FileDiscovery.psd1"
+        $modulePath = Join-Path $PSScriptRoot "..\filediscovery\filediscovery.psd1"
         Import-Module $modulePath -Force
 
         (Get-Command Get-LongPaths -ErrorAction SilentlyContinue) | Should -Not -BeNullOrEmpty
