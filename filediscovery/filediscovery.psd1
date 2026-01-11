@@ -1,5 +1,5 @@
 @{
-    RootModule = 'FileDiscovery.psm1'
+    RootModule = 'filediscovery.psm1'
     ModuleVersion = '1.0.0'
     GUID = '3f2c7f13-3c6d-4b5c-9f1a-2f9c1f3a2b9c'
     Author = 'Shannon B. Eldridge-Kuehn'
