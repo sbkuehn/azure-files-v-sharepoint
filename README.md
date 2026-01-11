@@ -2,7 +2,7 @@
 
 A fully ready PowerShell module + scripts to **discover file share patterns** that drive the Azure Files vs SharePoint decision.
 
-This repo is designed to be dropped into GitHub and used as-is during a migration assessment.
+This repo is designed to be dropped in and used as-is during a migration assessment.
 
 ## What it does
 
