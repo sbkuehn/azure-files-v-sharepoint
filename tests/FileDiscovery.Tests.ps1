@@ -1,4 +1,4 @@
-Describe "CloudyMusings.FileDiscovery basic tests" {
+Describe "filediscovery basic tests" {
     It "Module imports" {
         $modulePath = Join-Path $PSScriptRoot "..filediscovery\filediscovery.psd1"
         { Import-Module $modulePath -Force } | Should -Not -Throw
