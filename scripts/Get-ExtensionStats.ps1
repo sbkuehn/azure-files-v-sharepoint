@@ -17,7 +17,7 @@ param(
     [int] $MaxItems = 500000
 )
 
-$modulePath = Join-Path $PSScriptRoot "..\src\CloudyMusings.FileDiscovery\CloudyMusings.FileDiscovery.psd1"
+$modulePath = Join-Path $PSScriptRoot "..\filediscovery\filediscovery.psd1"
 Import-Module $modulePath -Force
 
 $logPath = New-DiscoveryLogFile
