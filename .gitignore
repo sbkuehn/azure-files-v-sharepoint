@@ -1,0 +1,16 @@
+# PowerShell
+*.psd1.user
+*.psm1.user
+*.ps1.user
+
+# Output
+out/
+*.csv
+*.log
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
