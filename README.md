@@ -36,7 +36,7 @@ Outputs are PowerShell objects and can optionally be exported to CSV.
 ### Option B: Import the module
 
 ```powershell
-Import-Module .\src\CloudyMusings.FileDiscovery\CloudyMusings.FileDiscovery.psd1 -Force
+Import-Module .\src\FileDiscovery\FileDiscovery.psd1 -Force
 
 Get-LongPaths -RootPath "\\FileServer\\Shared" -MinPathLength 220
 Get-FileExtensionStats -RootPath "\\FileServer\\Shared" -Top 25
